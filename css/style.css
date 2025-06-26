@@ -1,0 +1,221 @@
+body{
+    background-color: rgb(51, 51, 51);
+}
+
+#tela-cadastro{
+    .tabela-cadastro{
+        padding: 15px;
+        background-color: #d6d6d6;
+        border-radius: 30px;
+    }
+
+    .form-control{
+        border-radius: 30px;
+        background-color: #ffffff;
+    }
+
+    .btn-submit{
+        text-align: end;
+    }
+
+    .btn{
+        background-color: black ;
+        color: white;
+        border: none;
+        border-radius: 30px;
+    }
+
+    .btn:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .fa-check{
+        padding: 50px;
+        background-color: #42f575;
+        border-radius: 100%;
+        font-size: 100px;
+        color: #3b824f;
+    }
+
+    .fa-x{
+        padding: 50px;
+        background-color: #ed8282;
+        border-radius: 100%;
+        font-size: 100px;
+        color: #f21111;
+    }
+}
+
+#tela-listagem{
+    .container {
+        border-radius: 30px;
+        background-color: #d6d6d6;
+    }
+
+    .btn-primary{
+        background-color: black ;
+        color: white;
+        border: none;
+        border-radius: 30px;
+    }
+
+    .btn-primary:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .form-control{
+        border-radius: 30px;
+        background-color: #ffffff;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+
+    .fa-check{
+        padding: 50px;
+        background-color: #42f575;
+        border-radius: 100%;
+        font-size: 100px;
+        color: #3b824f;
+    }
+
+    .fa-x{
+        padding: 50px;
+        background-color: #ed8282;
+        border-radius: 100%;
+        font-size: 100px;
+        color: #f21111;
+    }
+    
+    .title-table{
+        border: none;
+    }
+
+    .table{
+        border-radius: 30px;
+        padding: 15px;
+    }
+
+    .btn-trash, .btn-pen{
+        background-color: none;
+        color: white;
+        padding-left: 20px;
+    }
+
+    .btn-trash:hover {
+        color: rgb(238, 88, 88);
+    }
+
+    .btn-pen:hover {
+        color:#b7f88c
+    }
+
+    @media (max-width: 576px) {
+        padding: 10px;
+        .form-group{
+            margin-right: 10px;
+        }
+    }
+}
+
+#tela-listagem-editar{
+
+    .container {
+        padding: 15px;
+        border-radius: 30px;
+        background-color: #d6d6d6;
+    }
+
+    .fa-check{
+        padding: 50px;
+        background-color: #42f575;
+        border-radius: 100%;
+        font-size: 100px;
+        color: #3b824f;
+    }
+
+    .fa-x{
+        padding: 50px;
+        background-color: #ed8282;
+        border-radius: 100%;
+        font-size: 100px;
+        color: #f21111;
+    }
+
+    .w-100{
+        text-align: end;
+    }
+
+    .btn-primary{
+        background-color: black ;
+        color: white;
+        border: none;
+        border-radius: 30px;
+    }
+
+    .btn-primary:hover{
+        background-color: white;
+        color: black;
+    }
+
+    @media (max-width: 576px) {
+        padding: 10px;
+    }
+}
+
+#tela-pesquisa{
+    .container{
+        padding: 15px;
+        border-radius: 30px;
+        background-color: #d6d6d6;
+    }
+
+    .btn-primary{
+        background-color: black ;
+        color: white;
+        border: none;
+        border-radius: 30px;
+    }
+
+    .btn-primary:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .form-control{
+        border-radius: 30px;
+        background-color: #ffffff;
+    }
+
+    .card{
+        border-radius: 30px;
+        width: 18rem;
+    }
+
+    .table-dark{
+        border-radius: 30px;
+    }
+
+    .title-table{
+        border: none;
+    }
+
+    @media (max-width: 576px) {
+        padding: 10px;
+        .tela-pesquisa-mobile{
+            margin-right: 0px !important;
+            margin-left: 0px !important;
+        }
+
+        .form-group{
+            margin-right: 10px;
+        }
+
+        .cards-pesquisa-mobile{
+            display: contents;
+        }
+    }
+}
