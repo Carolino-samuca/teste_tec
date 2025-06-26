@@ -1,0 +1,52 @@
+-- Criação do banco de dados
+CREATE DATABASE cadastro_db;
+
+-- Seleção do banco de dados
+USE cadastro_db;
+
+CREATE TABLE bairros (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome_bairro VARCHAR(255) NOT NULL,
+    quantidade INT NOT NULL
+);
+
+
+-- Criação da tabela usuarios
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome_completo VARCHAR(255) NOT NULL,
+    cpf VARCHAR(14) NOT NULL,
+    cep VARCHAR(8) NOT NULL,
+    endereco VARCHAR(255) NOT NULL,
+    bairro VARCHAR(255) NOT NULL,
+    cidade VARCHAR(255) NOT NULL,
+    estado VARCHAR(255) NOT NULL,
+    numero INT NOT NULL
+);
+
+-- para testes
+
+TRUNCATE TABLE bairros;
+
+INSERT INTO bairros (nome_bairro, quantidade) VALUES
+('Centro', 2),
+('Jardim América', 3),
+('Canaã', 1),
+('Floresta', 2),
+('Santo Agostinho', 1),
+('Barro Preto', 1);
+
+TRUNCATE TABLE usuarios;
+
+INSERT INTO usuarios (nome_completo, cpf, cep, endereco, bairro, cidade, estado, numero) VALUES
+('Maria Silva', '11122233344', '30160010', 'Rua da Bahia', 'Centro', 'Belo Horizonte', 'MG', 100),
+('João Santos', '22233344455', '30160010', 'Avenida Afonso Pena', 'Centro', 'Belo Horizonte', 'MG', 500),
+('Ana Paula Souza', '33344455566', '30421160', 'Rua Campina Verde', 'Jardim América', 'Belo Horizonte', 'MG', 250),
+('Pedro Oliveira', '44455566677', '30421160', 'Rua Curupaiti', 'Jardim América', 'Belo Horizonte', 'MG', 123),
+('Carla Mendes', '55566677788', '30421160', 'Rua Contria', 'Jardim América', 'Belo Horizonte', 'MG', 321),
+('Lucas Fernandes', '66677788899', '31990020', 'Rua dos Eucaliptos', 'Canaã', 'Belo Horizonte', 'MG', 45),
+('Mariana Costa', '77788899900', '30150240', 'Rua Pouso Alegre', 'Floresta', 'Belo Horizonte', 'MG', 789),
+('Rafael Pereira', '88899900011', '30150240', 'Rua Ceará', 'Floresta', 'Belo Horizonte', 'MG', 101),
+('Gabriela Lima', '99900011122', '30180010', 'Rua Matias Cardoso', 'Santo Agostinho', 'Belo Horizonte', 'MG', 50),
+('Fernando Rocha', '00011122233', '30180060', 'Rua dos Goitacazes', 'Barro Preto', 'Belo Horizonte', 'MG', 300);
+
