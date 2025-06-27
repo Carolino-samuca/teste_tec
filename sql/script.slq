@@ -26,7 +26,6 @@ CREATE TABLE usuarios (
 
 -- para testes
 
-TRUNCATE TABLE bairros;
 
 INSERT INTO bairros (nome_bairro, quantidade) VALUES
 ('Centro', 2),
@@ -36,7 +35,6 @@ INSERT INTO bairros (nome_bairro, quantidade) VALUES
 ('Santo Agostinho', 1),
 ('Barro Preto', 1);
 
-TRUNCATE TABLE usuarios;
 
 INSERT INTO usuarios (nome_completo, cpf, cep, endereco, bairro, cidade, estado, numero) VALUES
 ('Maria Silva', '11122233344', '30160010', 'Rua da Bahia', 'Centro', 'Belo Horizonte', 'MG', 100),
