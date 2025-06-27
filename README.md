@@ -53,7 +53,8 @@ tive a liberdade de criar 2 novas funções:
 - E uma barra de pesquisa para buscar algum usuário em específico e fazer a alteração ou exclusão,
 
 Assim, seguindo roteiro de criação o botão de relatório ficará válido somente se o banco de dados tiver a quantidade de 10 ou mais usuários. Possibilitando 
-visualizar a quantidade de CEP's por bairro e quais bairros tem mais que um CEP.
+visualizar a quantidade de CEP's por bairro e quais bairros tem mais que um CEP. Também após a pesquisa apertar novamente o botão pesquisar para mostrar todos 
+no banco além de resetar para entrar no relatório.
 
 ![image](https://github.com/user-attachments/assets/a517559b-ffec-49ac-b315-971e4cc42d19)
 
