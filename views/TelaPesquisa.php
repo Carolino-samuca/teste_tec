@@ -18,6 +18,7 @@ session_start();
                             <button class="btn btn-primary">cadastrar</button>
                         </a>
                     </div>
+                    <!-- -->
                     <form class="form-inline justify-content-center mb-4" method="POST" action="">
                         <div class="form-group mx-sm-3 mb-2">
                             <input type="text" class="form-control" id="inputPassword2" name="pesquisa" placeholder="Pesquisar">

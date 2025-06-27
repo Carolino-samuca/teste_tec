@@ -9,6 +9,7 @@ include_once "../controllers/TelaListagemEditarController.php";
             <div class="w-100 text-center">
                 <h1>Editar usuario</h1>
             </div>
+            <!-- Aqui precisamos enviar o action para que dê um retorno de sucesso ou não, além de enviar os dados para dar o update  -->
             <form method="POST" action="../controllers/TelaListagemEditarController.php">
                 <div class="form-group d-none">
                     <input type="text" name="id" value="<?= $usuario['id']; ?>" class="form-control" required>

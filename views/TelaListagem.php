@@ -19,9 +19,9 @@ include_once "../controllers/TelaListagemController.php";
                             <button type="button" id="btn-relatorio" class="btn btn-primary" disabled>Relatótio</button>
                         </a>
                     </div>
+                    <!-- Aqui não precisa endereçar o action, pois puxamos as informações solicitadas pela TelaListagemController do include_once acima -->
                     <form class="form-inline justify-content-center mt-4 mb-3" method="POST" action="">
                         <div class="form-group mx-sm-3 mb-2">
-                            <label for="pesquisa" class="sr-only">Pesquisar CEP e CPF</label>
                             <input type="text" class="form-control" id="inputPassword2" name="pesquisa" placeholder="Pesquisar">
                         </div>
                         <button type="submit" class="btn btn-primary mb-2" name="acao" value="pesquisar">Pesquisar</button>
