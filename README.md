@@ -18,7 +18,8 @@ Para a configuração foi deixado um arquivo '.sql' dentro da pasta sql do proje
 todo o projeto foi pensado e planejado tanto para o desktop quanto para o smartphone e outros dispositivos.
 
 ### Configurar e rodar o projeto:
-Todo o projeto foi feito em '.php' para rodar e testar lembre-se de baixar o xamp e ativá-lo ( tanto o Apache quanto o MySQL), colocar o arquivo em htdocs e por fim colocar no navegador o link **http://localhost/teste_tecnico/index.php**.
+Todo o projeto foi feito em '.php' para rodar e testar lembre-se de baixar o xamp e ativá-lo ( tanto o Apache quanto o MySQL), colocar o arquivo em htdocs e por fim colocar no navegador o link **http://localhost/teste_tec/index.php** ( lembrando que 
+tem que ser o mesmo nome que o arquivo ).
 Outro ponto de atenção, para rodar o projeto vá no arquivo 'Connection.php' localizado na pasta 'includes', no meu caso coloquei o acesso ao banco pela porta 3307, na maioria dos casos pode deixar no padrão que é 3306.
 
 ## 📄Explicando Sistema
