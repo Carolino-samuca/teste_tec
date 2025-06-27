@@ -27,11 +27,9 @@ if (isset($_POST['pesquisa'])) {
             // LIKE junto com os dois '%' ajuda na pesquisa pois vai pesquisar o número ou letra que tem contida no banco
             $sql = "SELECT * FROM usuarios WHERE cpf LIKE '%$pesquisa%'";
             $result = $conn->query($sql);
-            // exit();
         } else {
             $sql = "SELECT * FROM usuarios WHERE nome_completo LIKE '%$pesquisa%'";
             $result = $conn->query($sql);
-            // exit();
         }
     }
 }
